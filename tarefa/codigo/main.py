@@ -27,6 +27,7 @@ def titanic(Sex:int, Age:float, Lifeboat:int, Pclass:int):
         }
     else:
         return{
+            'status':500,
             'message':'Falha na execução :|'
         }
 
@@ -34,4 +35,5 @@ def titanic(Sex:int, Age:float, Lifeboat:int, Pclass:int):
 def get():
     return {
         "Hello World"
+        "Predição de sobreviventes do Titanic - API"
     }
